@@ -49,7 +49,7 @@ export default function Memotest(){
             return (
                     <li 
                         onClick={() => selected.length < 2 && setSelected((selected) => selected.concat(image))}
-                        style={{cursor: "pointer", padding: 12, border: "1px solid #666", borderRadius: 12}} 
+                        style={{cursor: "pointer", padding: 6, border: "1px solid #666", borderRadius: 12}} 
                         key={image} 
                     >
                      {selected.includes(image) || guessed.includes(image) ? (
