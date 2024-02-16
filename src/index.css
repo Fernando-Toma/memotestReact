@@ -1,0 +1,104 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  margin: auto;
+  place-items: center;
+  max-width: 80%;
+  min-height: 100vh;
+}
+
+#root {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+main {
+  padding: 1rem;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+}
+
+@media (min-width: 426px) {
+    footer {
+        height: 150px;
+        align-items: center;
+        margin-top: 25px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .desarrollador {
+        margin: 0 auto;
+    }
+    
+    .redes-sociales {
+        margin: 0 auto;
+    }
+}
+
+.desarrollador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+h3 {
+    color: #ffa4de;
+    font-size: 25px;
+}
+
+.redes-sociales .red-social {
+    font-size: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #ffa4de
+}
+
+.redes-sociales .red-social:hover {
+    color: white;
+    font-size: 35px;
+}
